@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://192.168.122.138:31112
+functions:
+  fun-py-flask-qfaas:
+    lang: python3-flask-qfaas
+    handler: ./fun-py-flask-qfaas
+    image: fun/fun-py-flask-qfaas:v1.26
+

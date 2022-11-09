@@ -1,0 +1,9 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://192.168.122.138:31112
+functions:
+  fun-py-flask-tcp:
+    lang: python3-flask-tcp
+    handler: ./fun-py-flask-tcp
+    image: fun/fun-py-flask-tcp:v1.23
