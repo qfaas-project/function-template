@@ -2,13 +2,13 @@
 
 Function templates and the synthetic function examples
 
-## Prerequisite
+## Prerequisites
 
 - The way of using `faas-cli` to build a OpenFaaS function image
 	- Offcial example: https://github.com/openfaas/python-flask-template
 - In short, a functiom image is a combination of: `request handler` + `language runtime` + `function code`. In OpenFaaS
 	- `request handler` is the `of-watchdog` ([qfaas of-watchdog](https://github.com/qfaas-project/of-watchdog))
-	- `language runtion` is the function `template` (this repo)
+	- `language runtime` is the function `template` (this repo)
 
 
 ## Example
