@@ -20,8 +20,8 @@ Please check the `Dockerfile` in each template to get more information
 ```
 cd single-function/python
 faas-cli build -f fun-py-flask-qfaas.yml
-# > faas deploy -f fun-py-flask-qfaas.yml # change the gateway IP:Port in yml file first
-# or > faas deploy -g IP:Port -f fun-py-flask-qfaas.yml
+# > faas-cli deploy -f fun-py-flask-qfaas.yml # change the gateway IP:Port in yml file first
+# or > faas-cli deploy -g IP:Port -f fun-py-flask-qfaas.yml
 ```  
 
 *More templates comming soon...*
